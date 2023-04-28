@@ -18,12 +18,10 @@
   | body
   |============================
 */
-.body {
+body {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     background-color:var(--background-color);
     color: var(--body-text);
@@ -35,10 +33,6 @@
   |============================
 */
 .header {
-    width: 1440px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
     border-bottom: 1px solid #E7E9FC;
     flex: none;
     order: 0;
@@ -51,13 +45,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
 
-    width: 261px;
-    height: 24px;
-    left: 347px;
-    top: 24px;
 }
 .list{
     list-style: none;
@@ -69,10 +57,6 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    width: 261px;
-    height: 24px;
-    left: 347px;
-    top: 24px;
 }
 
 .nav-menu-li{
@@ -112,7 +96,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding:0px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -131,14 +114,9 @@
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
-.studio {
-    width: 44px;
-    height: 21px;    
+.studio {  
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -152,10 +130,6 @@
 }
 
 .address-contacts {
-    width: 153px;
-    height: 24px;
-    left: 940px;
-    top: 24px;
     text-decoration: none;
     list-style-type: none;    
 }
@@ -190,19 +164,10 @@
   |============================
 */
 .hero {
-    position: absolute;
-    width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 72px;
     background: #2E2F42;  
 }
 .hero-h{
-    position: absolute;
-    width: 496px;
-    height: 120px;
-    left: 472px;
-    top: 260px;
+
     
     /* Header 1 */
     
@@ -217,11 +182,7 @@
     color: #ffffff;
 }
 .hero-background{
-    position: absolute;
-    width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 72px;
+
 
     background: #2E2F42;
 }
@@ -230,28 +191,13 @@
     display: flex;   
     flex-direction: row;
     align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
-    background-color:var(--color-partlogo-buttons);
-    color:#ffffff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
+        background-color: var(--color-partlogo-buttons);
+        color: var(--color-partlogo-buttons);
+        color: #ffffff;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
 }
 .button-text {
-    width: 105px;
-    height: 24px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -261,38 +207,23 @@
     align-items: center;
     letter-spacing: 0.04em;
     color: #ffffff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    cursor: pointer;
 }
 .button:hover, .button:focus{
     background-color: #404BBF;
 }
 .section-features {
-    position: absolute;
-    width: 1128px;
-    height: 104px;
-    left: 156px;
-    top: 792px;
     
 }
 
 .features {
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
     
-    position: absolute;
-    width: 264px;
-    height: 104px;
 
 }
 
 .features-p {
-    width: 264px;
-    height: 72px;
+
 }
 .features-h{
     font-weight: 500;
@@ -302,17 +233,10 @@
     color:var(--color-title-h2-h3-darkbg);
 }
 .section-3{
-    width: 1128px;
-    height: 412px;
 
 }
 
 .section-h{
-    position: absolute;
-    width: 323px;
-    height: 40px;
-    left: 559px;
-    top: 1016px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -323,53 +247,31 @@
 .section-3-images {
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
-    
-    position: absolute;
-    width: 360px;
-    height: 300px;
-    left: 156px;
-    top: 1128px;
+
 }
 .section-3-images-1{
     display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
 
-
-width: 360px;
-height: 300px;
 
 }
 .section-3-images-2{
     display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
 
-
-width: 360px;
-height: 300px;
 
 }
 .section-3-images-3{
     display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px;
-
-
-width: 360px;
-height: 300px;
 
 }
 .section-our-team {
     position: absolute;
-    width: 1440px;
-    height: 732px;
-    left: 0px;
-    top: 1548px;
+
     background-color: var(--color-resst);
 }
 .our-team-h{
@@ -414,32 +316,16 @@ height: 300px;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        gap: 24px;
         list-style: none;
 }
 .nav-button{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--color-partlogo-buttons);
-    padding: 12px 24px;
-    width: 116px;
-    height: 48px;
-    background: #F4F4FD;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    cursor: pointer;
+        letter-spacing: 0.04em;
+        color: var(--color-partlogo-buttons);
+        background: #F4F4FD;
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+        cursor: pointer;
 }
 .nav-button:hover,
 .nav-button:focus{
@@ -448,8 +334,6 @@ height: 300px;
 }
 
 .nav-button-text{
-    width: 116px;
-    height: 48px;
 
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -464,9 +348,6 @@ height: 300px;
     color: var(--color-partlogo-buttons);
     cursor: pointer;
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 .portfolio-title{
     font-weight: 500;
@@ -483,25 +364,13 @@ height: 300px;
     color:var(--body-text);
 }
 .section-footer{
-    position: absolute;
-    width: 1440px;
-    height: 312px;
-    left: 0px;
-    top: 2280px;
     background: #2E2F42; 
 }
 .footer {
-    position: absolute;
-    width: 1440px;
-    height: 312px;
-    left: 0px;
-    top: 2280px;
     background-color: var(--color-title-h2-h3-darkbg);
 }
 
-.footer-text {
-        width: 264px;
-        height: 72px; 
+.footer-text { 
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -513,9 +382,6 @@ height: 300px;
 .footer-logo{
         flex-direction: row;
         align-items: center;
-        padding: 0px;
-        width: 115px;
-        height: 24px;
         color:var(--color-partlogo-buttons);
 }
 .footer-logo-studio{
