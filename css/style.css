@@ -1,4 +1,8 @@
-/**
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}/**
   |============================
   | root
   |============================
@@ -41,10 +45,13 @@ body {
 .header-div{
     display: flex;
 }
+.img{
+    display: block;
+}
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding:0 15px;
+    padding: 0 15px;
 }
 .link {
     text-decoration: none;
@@ -52,7 +59,7 @@ body {
 
 .menu-nav {
     display: flex;
-        align-items: flex-start;
+    align-items: center;
     flex-direction: row;
 
 }
@@ -65,6 +72,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    gap: 40px;
 }
 
 .nav-menu-li {
@@ -81,6 +89,7 @@ body {
     flex-direction: row;
     text-decoration: none;
     list-style: none;
+    padding: 24px 0;
 }
 
 .nav-menu-li:focus,
@@ -155,7 +164,9 @@ body {
 }
 
 .address {
+    display: flex;
     font-style: normal;
+    gap: 40px;
 }
 
 .visually-hidden {
