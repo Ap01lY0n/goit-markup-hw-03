@@ -38,9 +38,6 @@ body {
 */
 .header {
     border-bottom: 1px solid #E7E9FC;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 .header-div{
     display: flex;
@@ -56,17 +53,16 @@ body {
 .link {
     text-decoration: none;
 }
-
+.list {
+    list-style: none;
+}
 .menu-nav {
     display: flex;
     align-items: center;
     flex-direction: row;
-
 }
 
-.list {
-    list-style: none;
-}
+
 
 .nav-menu-ul {
     display: flex;
@@ -148,7 +144,10 @@ body {
     text-transform: uppercase;
     color: var(--color-title-h2-h3-darkbg);
 }
-
+.address-ul{
+    display: flex;
+    gap:40px;
+}
 .address-contacts {
     text-decoration: none;
     list-style-type: none;
@@ -190,6 +189,7 @@ body {
   |============================
 */
 .hero {
+    padding: 180px 0;
     background: #2E2F42;
 }
 
