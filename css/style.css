@@ -43,6 +43,8 @@ body {
 }
 .container{
     width: 1158px;
+    margin: 0 auto;
+    padding:0 15px;
 }
 .link {
     text-decoration: none;
@@ -50,8 +52,8 @@ body {
 
 .menu-nav {
     display: flex;
+        align-items: flex-start;
     flex-direction: row;
-    align-items: flex-start;
 
 }
 
@@ -96,6 +98,7 @@ body {
 .logo {
     width: 44px;
     height: 21px;
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
