@@ -261,7 +261,7 @@ body {
     align-items: flex-start;
 }
 .features-li{
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 24px * 3) / 4);
 }
 
 .features-h {
