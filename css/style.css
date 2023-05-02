@@ -276,11 +276,11 @@ body {
     color: var(--color-title-h2-h3-darkbg);
 }
 
-.section-3 {
+.section-three {
     padding-bottom: 120px;
 }
 
-.section-3-h {
+.section-three-h {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -289,12 +289,12 @@ body {
     margin-bottom: 72px;
 }
 
-.section-3-images {
+.section-three-images {
     display: flex;
     gap:24px;
 }
 
-.section-3-image {
+.section-three-image {
     width: calc((100% - 48px) / 3);
 }
 
@@ -319,8 +319,8 @@ body {
     text-decoration: none;
     
 }
-.our-team-image{
-    width: calc((100% - 72px) / 4);
+.our-team-li{
+    width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
