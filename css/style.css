@@ -42,6 +42,7 @@ body {
 }
 .header-div{
     display: flex;
+    align-items: center;
 }
 .img{
     display: block;
@@ -146,6 +147,7 @@ body {
     color: var(--color-title-h2-h3-darkbg);
 }
 .address-ul{
+    align-items: center;
     display: flex;
     gap:40px;
 }
@@ -164,9 +166,8 @@ body {
 }
 
 .address {
-    display: flex;
     font-style: normal;
-    gap: 40px;
+    margin-left:auto;
 }
 
 .visually-hidden {
@@ -261,7 +262,7 @@ body {
     align-items: flex-start;
 }
 .features-li{
-    width: calc((100% - 24px * 3) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .features-h {
