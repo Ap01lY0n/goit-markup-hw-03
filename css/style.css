@@ -353,6 +353,15 @@ body {
 .list {
     list-style: none;
 }
+.portfolio-nav-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    gap: 24px;
+    margin-bottom: 72px;
+}
 
 .nav-button {
     line-height: 1.5;
@@ -378,7 +387,6 @@ body {
 }
 
 .nav-button-text {
-
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -454,5 +462,14 @@ body {
     max-width: 264px;
 }
 .footer-logo-studio {
-    color: #f4f4fd;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--color-resst);
 }
