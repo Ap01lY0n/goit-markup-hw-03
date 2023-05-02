@@ -72,7 +72,6 @@ body {
 }
 
 .nav-menu-li {
-    display: list-item;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -127,6 +126,7 @@ body {
     line-height: 1.17;
     font-size: 18px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -139,6 +139,7 @@ body {
     font-size: 18px;
     line-height: 21px;
     display: flex;
+    flex-direction: row;    
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -213,11 +214,10 @@ body {
 }
 
 .button {
-    display: block;
+    display: block  ;
     min-width: 169px;
     height:56px;
     border:none;
-    flex-direction: row;
     align-items: flex-start;
     background-color: var(--color-partlogo-buttons);
     color: var(--color-partlogo-buttons);
@@ -253,7 +253,7 @@ body {
 }
 
 .section-features{
-    padding: 120px;
+    padding: 120px 0;
 }
 
 .features-ul{
@@ -265,10 +265,11 @@ body {
     width: calc((100% - 72px) / 4);
 }
 .features-p {
-    margin-bottom: 8px;
+
 }
 
 .features-h {
+        margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
