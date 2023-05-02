@@ -353,11 +353,9 @@ body {
 .portfolio-nav-list {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
+    
+    gap: 24px;
+    margin-bottom: 72px;
 }
 
 .nav-button {
@@ -409,11 +407,11 @@ body {
     padding: 96px 0 120px;
 }
 .portfolio-list{
-    display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-    gap: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
 }
 .portfolio-item{
     flex-basis: calc((100% - 3 * 24px) / 4);
@@ -464,7 +462,7 @@ body {
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        display: flex;
+        display: inline;
         flex-direction: row;
         align-items: center;
         letter-spacing: 0.03em;
