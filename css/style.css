@@ -261,11 +261,7 @@ body {
     gap:24px;
     align-items: flex-start;
 }
-.features-li{
-    padding:auto;
-    width: calc((100% - 24px * 3) / 4);
-    
-}
+
 
 .features-h {
     margin-bottom: 8px;
