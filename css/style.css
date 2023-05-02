@@ -413,7 +413,6 @@ body {
 }
 .portfolio-list{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
@@ -421,6 +420,9 @@ body {
 }
 .portfolio-item{
     flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.portfolio-title{
+    margin-bottom: 8px;
 }
 .portfolio-text {
     font-size: 16px;
