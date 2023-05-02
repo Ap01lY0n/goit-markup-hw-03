@@ -263,6 +263,7 @@ body {
 }
 .features-li{
     flex-basis: calc((100% - 3 * 24px) / 4);
+    padding-left: 0;
 }
 
 .features-h {
