@@ -262,7 +262,7 @@ body {
     align-items: flex-start;
 }
 .features-li{
-    padding-left: 0;
+    padding:auto;
     width: calc((100% - 24px * 3) / 4);
     
 }
