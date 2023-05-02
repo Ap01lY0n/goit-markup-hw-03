@@ -256,15 +256,14 @@ body {
     padding: 120px 0;
 }
 
-.features-ul{
+.section-features-ul{
     display: flex;
     gap:24px;
     align-items: flex-start;
 }
-.features-li{
+.section-features-li{
     padding:auto;
     width: calc((100% - 24px * 3) / 4);
-    
 }
 
 .features-h {
