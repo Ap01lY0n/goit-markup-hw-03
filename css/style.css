@@ -418,7 +418,6 @@ body {
     column-gap: 24px;
     row-gap: 48px;
     gap: 24px;
-    margin-bottom: 72px;
 }
 .portfolio-item{
     flex-basis: calc((100% - 48px) / 3);
