@@ -261,10 +261,7 @@ body {
     align-items: flex-start;
 }
 .features-li{
-    flex-basis: calc((100% - 72px) / 4);
-}
-.features-p {
-
+    width: calc((100% - 72px) / 4);
 }
 
 .features-h {
@@ -357,10 +354,10 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    gap: 24px;
-    margin-bottom: 72px;
 }
 
 .nav-button {
@@ -419,7 +416,7 @@ body {
     gap: 24px;
 }
 .portfolio-item{
-    width: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .portfolio-title{
     margin-bottom: 8px;
