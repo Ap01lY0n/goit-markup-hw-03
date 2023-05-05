@@ -102,8 +102,6 @@ body {
 
 
 .logo {
-    width: 44px;
-    height: 21px;
     margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-style: normal;
@@ -120,8 +118,6 @@ body {
 }
 
 .web {
-    width: 44px;
-    height: 21px;
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -193,6 +189,7 @@ body {
 .hero {
     padding: 188px 0;
     background: #2E2F42;
+    margin: 0 auto;
 }
 
 .hero-h {
@@ -206,18 +203,18 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    margin: 0 auto;
+    padding-bottom: 48px;
 }
 
 .hero-background {
-
-
+    margin: 0 auto;
     background: #2E2F42;
 }
 
 .button {
     display: block;
     min-width: 169px;
-    height:56px;
     border:none;
     align-items: flex-start;
     background-color: var(--color-partlogo-buttons);
@@ -233,19 +230,10 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    margin:0 auto;
+    padding:16px 32px;
 }
 
-.button-text {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-}
 
 .button:hover,
 .button:focus {
@@ -267,7 +255,6 @@ body {
 }
 
 .features-h {
-    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -351,6 +338,8 @@ body {
 
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .portfolio-nav-list {
     display: flex;
@@ -373,7 +362,7 @@ body {
     font-weight: 500;
     font-family: "Roboto", sans-serif;
     padding: 12px 24px;
-    
+
 }
 
 .nav-button:hover,
@@ -396,7 +385,10 @@ body {
     color: var(--color-partlogo-buttons);
     cursor: pointer;
 }
-
+.nav-button-text:hover,
+.nav-button-text:focus {
+    color: #ffffff;
+}
 .portfolio-title {
     font-weight: 500;
     font-size: 20px;
@@ -431,7 +423,6 @@ body {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 .section-footer {
     background: #2E2F42;
