@@ -31,7 +31,30 @@ body {
     background-color: var(--background-color);
     color: var(--body-text);
 }
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: var(--background-color);
+    color: var(--body-text);
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 /**
   |============================
   | header
@@ -204,7 +227,7 @@ body {
     letter-spacing: 0.02em;
     color: #ffffff;
     margin: 0 auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 .hero-background {
@@ -353,7 +376,8 @@ body {
 .nav-button {
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--portfolio-button-border);
+    background-color: var(--portfolio-button-border);
+    color: var(--color-partlogo-buttons);
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
@@ -362,6 +386,9 @@ body {
     font-size: 16px;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
+    font-style: normal;
+    align-items: center;
+    text-align: center;
     padding: 12px 24px;
 
 }
@@ -373,23 +400,7 @@ body {
     background-color: #404BBF;
 }
 
-.nav-button-text {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
 
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: var(--color-partlogo-buttons);
-    cursor: pointer;
-}
-.nav-button-text:hover,
-.nav-button-text:focus {
-    color: #ffffff;
-}
 .portfolio-title {
     font-weight: 500;
     font-size: 20px;
@@ -450,6 +461,7 @@ body {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
+    margin:0;
 }
 .footer-logo-studio {
     font-family: 'Raleway';
