@@ -52,8 +52,6 @@ p {
 
 img {
     display: block;
-    width: 100%;
-    height: auto;
 }
 /**
   |============================
@@ -390,7 +388,6 @@ img {
     align-items: center;
     text-align: center;
     padding: 12px 24px;
-
 }
 
 .nav-button:hover,
